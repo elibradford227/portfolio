@@ -18,5 +18,49 @@ a {
 }
 
 body {
-  background-color: #88effd;
+  background-color: #f9f9f9;
+}
+
+#nav {
+  padding: 20px 40px 20px 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+  background-color: #fff;
+  font-weight: 600;
+}
+
+nav ul a {
+  color: red;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.mainContent {
+  align-items: center;
+  display: flex;
+  height: 35rem;
+  justify-content: center;
+  position: relative;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+  text-align: left;
+  justify-content: left;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 4rem;
+}
+
+#mainImg {
+  height: 17rem;
+  width: 17rem;
+  border: 2px solid #2d2e32;
+  border-radius: 60%;
+  margin-left: 5rem;
 }
